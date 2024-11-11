@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ilearn-backend"
+version = "0.1.0"
+description = ""
+authors = ["JoanGuich <contact@joanguich.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.1"
+pre-commit = "^3.8.0"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "N801", "N802", "N804", "N805"]
+ignore = ['E501', 'N803']

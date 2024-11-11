@@ -1,0 +1,22 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+
+# Virtualenv
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+db.sqlite3
+media
+
+
+.DS_Store
+.xlsx
+.pdf
