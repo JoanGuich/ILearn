@@ -7,7 +7,7 @@ import openai
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 
 
-class OpenAIFunction:
+class OpenAIFunctionNoContext:
     """OpenAI model that calls a function on text.
     This class is meant to be subclassed with the following attributes:
     - system_template: str - The system template for the OpenAI API
