@@ -54,6 +54,10 @@ class SectionInfo(BaseModel):
 
 
 class Sections(BaseModel):
+    topic_title: int = Field(
+        ...,
+        description="Title of the main topic",
+    )
     section: List[SectionInfo] = Field(..., description="List of sections' information")
 
 
