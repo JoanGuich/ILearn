@@ -6,10 +6,13 @@ authors = ["JoanGuich <contact@joanguich.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.11,<3.12"
 django = "^5.1.3"
 openai = "^1.54.3"
 tenacity = "^9.0.0"
+aiofiles = "^24.1.0"
+torch = "2.2.0"
+tts = "^0.22.0"
 
 
 [tool.poetry.group.dev.dependencies]

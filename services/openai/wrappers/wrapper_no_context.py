@@ -1,4 +1,3 @@
-# Create your models here.
 import json
 from time import time
 from typing import Any
